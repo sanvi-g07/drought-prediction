@@ -18,7 +18,9 @@ Sources:
 
 https://www.drought.gov/sectors/agriculture 
 
-https://www.google.com/search?q=problems+caused+by+drought&oq=problems+caused+by+drought&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDMxMjBqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8 
+https://www.drought.gov/impacts 
+
+https://www.cdc.gov/drought-health/health-implications/index.html 
 
 ## Methodology
 
