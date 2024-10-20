@@ -16,12 +16,12 @@ Drought is a serious issue, as it can have severe impacts on agriculture and foo
 
 ## Methodology
 
-After exploring and cleaning the data (removing outliers, making columns all numeric, etc.), I determined which factors would be useful for predicting level of drought using RFE. Additionally, I used SMOTE and Near Miss to try to balance the data set, as the given data set was imbalanced (most data points were for no drought rather than from D1 to D4), which could affect the accuracy.
+After exploring and cleaning the data (removing outliers, making columns all numeric, etc.), RFE was used to determine which factors would be the most useful for predicting the level of drought. Additionally, SMOTE and Near Miss were used to balance the data set, as the given data set was imbalanced (most data points were for no drought rather than from D1 to D4), which could affect the accuracy.
 
-Many types of models were tested, such as Decision Trees, Random Forests, and kNN algorithms on the data sets, GridSearchCV was utilized to tune and optimize the model.
+Many types of models were tested, such as Decision Trees, Random Forests, and kNN algorithms, on the data sets. GridSearchCV was utilized to tune and optimize the model.
 
 ## Conclusion
 
-I determined that the most accurate model overall was the Random Forest without resampling, with an accuracy of 81%. With further modifications and real-time data, this model has the potential to help in earlier detection of droughts, and have a positive impact on agriculture and economy all over the world.
+The most accurate model overall was the Random Forest without resampling, with an accuracy of 81%. With further modifications and real-time data, this model has the potential to help in earlier detection of droughts, and have a positive impact on agriculture and economy all over the world.
 
 
