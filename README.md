@@ -14,6 +14,10 @@ The dataset used came from Kaggle (https://www.kaggle.com/datasets/cdminix/us-dr
 
 Drought is a serious issue, as it can have severe impacts on agriculture and food security. Less rainfall leads to crops not growing well, more pests and diseases for plants, and health problems for livestock. These issues can lead to the prices of important foods rising, and harm the economy. By more accurately predicting droughts, more preventative measures could be taken to reduce the impact caused by less rainfall, therefore mitigating the economic impact and reducing the risk of food insecurity.   
 
+Sources:
+https://www.drought.gov/sectors/agriculture 
+https://www.google.com/search?q=problems+caused+by+drought&oq=problems+caused+by+drought&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDMxMjBqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8 
+
 ## Methodology
 
 After exploring and cleaning the data (removing outliers, making columns all numeric, etc.), RFE was used to determine which factors would be the most useful for predicting the level of drought. Additionally, SMOTE and Near Miss were used to balance the data set, as the given data set was imbalanced (most data points were for no drought rather than from D1 to D4), which could affect the accuracy.
