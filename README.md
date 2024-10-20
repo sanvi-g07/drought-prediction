@@ -26,7 +26,7 @@ https://www.cdc.gov/drought-health/health-implications/index.html
 
 After exploring and cleaning the data (removing outliers, making columns all numeric, etc.), RFE was used to determine which factors would be the most useful for predicting the level of drought. Additionally, SMOTE and Near Miss were used to balance the data set, as the given data set was imbalanced (most data points were for no drought rather than from D1 to D4), which could affect the accuracy.
 
-Many types of models were tested, such as Decision Trees, Random Forests, and kNN algorithms, on the data sets. GridSearchCV was utilized to tune and optimize the model.
+Many types of models were tested, such as Decision Trees, Random Forests, and KNN algorithms, on the data sets. GridSearchCV was utilized to tune and optimize the model.
 
 ## Conclusion
 
