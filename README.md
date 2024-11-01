@@ -12,7 +12,7 @@ The dataset used came from Kaggle (https://www.kaggle.com/datasets/cdminix/us-dr
 
 ## Problem
 
-Drought is a serious issue, as it can have severe impacts on agriculture and food security. Less rainfall leads to crops not growing well, more pests and diseases for plants, and health problems for livestock. These issues can lead to the prices of important foods rising, and harm the economy. By more accurately predicting droughts, more preventative measures could be taken to reduce the impact caused by less rainfall, therefore mitigating the economic impact and reducing the risk of food insecurity.   
+Drought is a serious issue severely impacting agriculture and food security. Less rainfall leads to crops not growing well, more pests and diseases for plants, and health problems for livestock, which can increase food costs and harm the economy. Additionally, some areas do not have accurate soil moisture monitoring, affecting drought prediction. Predicting drought from only weather information, which is more widely available, would allow for faster and more accurate prediction so preventative measures could be implemented earlier.    
 
 Sources:
 
@@ -24,9 +24,9 @@ https://www.cdc.gov/drought-health/health-implications/index.html
 
 ## Methodology
 
-After exploring and cleaning the data (removing outliers, making columns all numeric, etc.), RFE was used to determine which factors would be the most useful for predicting the level of drought. Additionally, SMOTE and Near Miss were used to balance the data set, as the given data set was imbalanced (most data points were for no drought rather than from D1 to D4), which could affect the accuracy.
+After exploring and cleaning the data (removing outliers, making columns all numeric, etc.), I determined the most useful factors for predicting the level of drought using Recursive Feature Elimination. Since most drought level data points were in the ‘None’ category rather than D0 to D4, I used the methods SMOTE and Near Miss to balance the data set.
 
-Many types of models were tested, such as Decision Trees, Random Forests, and KNN algorithms, on the data sets. GridSearchCV was utilized to tune and optimize the model.
+Many types of models were tested, such as Decision Trees, Random Forests, and KNN algorithms, on the data sets. GridSearchCV was utilized to optimize the model.
 
 ## Conclusion
 
